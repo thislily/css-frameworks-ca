@@ -37,7 +37,43 @@ $dark:          #606060 !default;
 $font-family-sans-serif: "Cabin", sans-serif;
 $display-font-family:  "Cherry Bomb One", system-ui;
 
+$primary-text-emphasis:   shade-color($primary, 60%) !default;
+$secondary-text-emphasis: shade-color($secondary, 60%) !default;
+$success-text-emphasis:   shade-color($success, 60%) !default;
+$info-text-emphasis:      shade-color($info, 60%) !default;
+$warning-text-emphasis:   shade-color($warning, 60%) !default;
+$danger-text-emphasis:    shade-color($danger, 50%) !default;
 
 
+$body-tertiary-bg:          #D4E5EF;
+
+$gradient: linear-gradient(180deg, #D4E5EF, #F5F5F5, #B6CBDE);
+
+.card{
+    max-width: 496px;
+}
+
+.profile-thumbnail{
+    width: 48px;
+}
+
+.profile-img{
+    width: 20%;
+    max-width: 200px;
+}
+
+.feed{
+    margin-top: 80px;
+}
+
+.btn.border-bottom-left-radius{
+    border-radius: 0px 0px 0px 2rem;
+}
+
+.btn.border-bottom-right-radius{
+    border-radius:  0px 0px 2rem 0px;
+}
+
+// @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

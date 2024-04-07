@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/thislily/css-frameworks-ca#readme",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
   },
   "devDependencies": {
     "sass": "^1.74.1"

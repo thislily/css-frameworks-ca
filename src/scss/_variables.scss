@@ -399,7 +399,7 @@ $prefix:                      $variable-prefix !default;
 // The gradient which is added to components if `$enable-gradients` is `true`
 // This gradient is also added to elements with `.bg-gradient`
 // scss-docs-start variable-gradient
-$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
+$gradient: linear-gradient(90deg, #D4E5EF, #F5F5F5, #B6CBDE);
 // scss-docs-end variable-gradient
 
 // Spacing
