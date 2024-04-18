@@ -1,15 +1,4 @@
 
-// scss-docs-start import-stack
-// Configuration
-// @import "../../node_modules/bootstrap/scss/functions";
-// @import "_variables";
-// @import "_variables-dark";
-// @import "../../node_modules/bootstrap/scss/maps";
-// // @import "../../node_modules/bootstrap/scss/mixins";
-// @import "../../node_modules/bootstrap/scss/utilities";
-
-
-
 // scss-docs-start color-variables
 $blue:    #1766af !default;
 $indigo:  #8237fb !default;
@@ -33,6 +22,7 @@ $warning:       $yellow !default;
 $danger:        #FE8E8E !default;
 $light:         #F5F5F5;
 $dark:          #606060 !default;
+
 // // scss-docs-end theme-color-variables
 $font-family-sans-serif: "Cabin", sans-serif;
 $display-font-family:  "Cherry Bomb One", system-ui;
@@ -73,7 +63,5 @@ $gradient: linear-gradient(180deg, #D4E5EF, #F5F5F5, #B6CBDE);
 .btn.border-bottom-right-radius{
     border-radius:  0px 0px 2rem 0px;
 }
-
-// @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
